@@ -1,0 +1,5 @@
+print(f'Exercício 9 - Preço a pagar')
+kmpercorrido =  float(input(f'Informe a quantidade de KM percorridos: '))
+qtddias = float(input(f'Informe a quantidade de DIA(S) pelo(s) qual(is) o carro foi alugado: '))
+total = (kmpercorrido * 0,15) + (qtddias * 60)
+print(f'Preço a PAGAR pela ALOCAÇÃO do veículo: {total}')
